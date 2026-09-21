@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Team 7 | 2HandToYou</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, "Noto Sans Thai", sans-serif;
+            background: #f4f7fb;
+            color: #1f2937;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #047857, #059669);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .container {
+            width: min(1100px, 92%);
+            margin: 40px auto;
+        }
+
+        .team-info {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .team-info h2 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .team-info p {
+            color: #6b7280;
+        }
+
+        .member-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .member-card {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            text-decoration: none;
+            color: #1f2937;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+            transition: all 0.25s ease;
+            text-align: center;
+        }
+
+        .member-card:hover {
+            transform: translateY(-6px);
+            border-color: #10b981;
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.10);
+        }
+
+        .avatar {
+            width: 70px;
+            height: 70px;
+            margin: 0 auto 15px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 50%;
+
+            background: #ecfdf5;
+            color: #047857;
+
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .member-card h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .member-card span {
+            font-size: 14px;
+            color: #6b7280;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        @media (max-width: 900px) {
+            .member-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 45px 20px;
+            }
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            .member-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Team 7</h1>
+        <p>2HandToYou — Team Hub</p>
+    </header>
+
+    <main class="container">
+
+        <section class="team-info">
+            <h2>สมาชิกในทีม</h2>
+            <p>เลือกสมาชิกเพื่อเข้าสู่หน้า Portfolio / Project ของแต่ละคน</p>
+        </section>
+
+        <section class="member-grid">
+
+            <a href="members/alongkorn/index.html" class="member-card">
+                <div class="avatar">อ</div>
+                <h3>อลงกรณ์ แก้วกลั่น</h3>
+                <span>Member 01</span>
+            </a>
+
+            <a href="members/phithai/index.html" class="member-card">
+                <div class="avatar">พ</div>
+                <h3>พิทาย ยะรังษี</h3>
+                <span>Member 02</span>
+            </a>
+
+            <a href="members/rachat/index.html" class="member-card">
+                <div class="avatar">ร</div>
+                <h3>รชต รัตนจันทร์</h3>
+                <span>Member 03</span>
+            </a>
+
+            <a href="members/saran/index.html" class="member-card">
+                <div class="avatar">ศ</div>
+                <h3>ศรัณญ์ นุชวงษ์</h3>
+                <span>Member 04</span>
+            </a>
+
+            <a href="members/wanatphong/index.html" class="member-card">
+                <div class="avatar">ว</div>
+                <h3>วณัฐพงศ์ วีรวรรณ</h3>
+                <span>Member 05</span>
+            </a>
+
+            <a href="members/ruchapa/index.html" class="member-card">
+                <div class="avatar">ร</div>
+                <h3>รุจาภา นรสาร</h3>
+                <span>Member 06</span>
+            </a>
+
+            <a href="members/kitti/index.html" class="member-card">
+                <div class="avatar">ก</div>
+                <h3>กิตติ แซ่อึ้ง</h3>
+                <span>Member 07</span>
+            </a>
+
+            <a href="members/natthawitra/index.html" class="member-card">
+                <div class="avatar">ณ</div>
+                <h3>ณัฏฐวิตรา เจือไทย</h3>
+                <span>Member 08</span>
+            </a>
+
+            <a href="members/sorawit/index.html" class="member-card">
+                <div class="avatar">ส</div>
+                <h3>สรวิชญ์ สำเร็จงาน</h3>
+                <span>Member 09</span>
+            </a>
+
+            <a href="members/prinnathon/index.html" class="member-card">
+                <div class="avatar">ป</div>
+                <h3>ปรินทร สุขเจริญ</h3>
+                <span>Member 10</span>
+            </a>
+
+            <a href="members/chotiwit/index.html" class="member-card">
+                <div class="avatar">ช</div>
+                <h3>โชติวิทย์ ภิญโญวรพจน์</h3>
+                <span>Member 11</span>
+            </a>
+            <a href="members/chotiwit/index.html" class="member-card">
+                <div class="avatar">ช</div>
+                <h3>ปริญ ธารินนรากุล</h3>
+                <span>Member 12</span>
+            </a>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Team 7 — 2HandToYou © 2026</p>
+    </footer>
+
+</body>
+</html>
