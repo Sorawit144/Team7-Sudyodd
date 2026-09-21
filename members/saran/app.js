@@ -1,9 +1,9 @@
 const app = document.getElementById('app');
 
 const member = {
-    "name": "อลงกรณ์ แก้วกลั่น",
-    "role": "Software Engineering Student",
-    "about": "นักศึกษาสาขาวิศวกรรมซอฟต์แวร์ สมาชิก Team 7 ของโครงการ 2HandToYou",
+    "name": "ศรัณญ์ นุชวงษ์",
+    "role": "Team 7 Member",
+    "about": "สมาชิก Team 7 ในโครงการ 2HandToYou",
     "skills": [
         "HTML",
         "CSS",
