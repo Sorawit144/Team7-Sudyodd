@@ -2,8 +2,8 @@ const app = document.getElementById('app');
 
 const member = {
     "name": "รุจาภา นรสาร",
-    "role": "Team 7 Member",
-    "about": "สมาชิก Team 7 ในโครงการ 2HandToYou",
+    "role": "Quality Manager ",
+    "about": "นักศึกษาคณะวิทยาการสารสนเทศ สาขาวิชา วิศวกรรมซอฟต์แวร์ สมาชิก Team 7 ในโครงการ 2HandToYou",
     "skills": [
         "HTML",
         "CSS",
